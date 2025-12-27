@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="مانجا, عزام الفراجي, Moroccan Dress Zero, اتساما, مانجا عربية">
+    <meta name="description" content="مانجا Moroccan Dress Zero للبطل اتساما - رؤية 2030">
+    <title>Manga AZ - V-Track Style</title>
+    
+    <style>
+        /* إعدادات المسار العمودي (V-Track) */
+        :root {
+            --main-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --bg-color: #1a1a1a; /* خلفية داكنة للمانجا */
+            --text-light: #ecf0f1;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-light);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* تنسيق العنوان الرئيسي */
+        h1 {
+            font-size: 80px;
+            margin: 40px 0 10px 0;
+            color: var(--accent-color);
+            letter-spacing: 10px;
+            text-shadow: 0 0 20px rgba(231, 76, 60, 0.5);
+            animation: fadeIn 2s ease-in;
+        }
+
+        /* تنسيق العنوان الفرعي */
+        h2 {
+            font-size: 1.8rem;
+            border-right: 5px solid var(--accent-color);
+            padding: 0 15px;
+            margin: 20px 0;
+            background: rgba(255, 255, 255, 0.1);
+            width: 90%;
+            max-width: 800px;
+        }
+
+        /* حاوية الغلاف (V-Track Image) */
+        .cover-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .cover-container img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #333;
+            transition: transform 0.5s ease;
+        }
+
+        .cover-container img:hover {
+            transform: scale(1.02);
+            border-color: var(--accent-color);
+        }
+
+        /* تنسيق الفقرات */
+        p {
+            max-width: 700px;
+            padding: 20px;
+            line-height: 1.8;
+            font-size: 1.2rem;
+            text-align: justify;
+            border-bottom: 1px solid #333;
+        }
+
+        /* تذييل الصفحة للمنشئ */
+        .creator-section {
+            margin-top: 50px;
+            padding: 40px;
+            background: linear-gradient(transparent, var(--accent-color));
+            width: 100%;
+            text-align: center;
+        }
+
+        /* حركات الأنيميشن */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* استجابة للهواتف */
+        @media (max-width: 600px) {
+            h1 { font-size: 50px; }
+            h2 { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>AZ</h1>
+    
+    <h2>مانجا: Moroccan Dress Zero - البطل اتساما</h2>
+
+    <div class="cover-container">
+        <img src="مجلد جديد (5)/MOROCCAN_DRESS_ZERO_Cover.png" alt="غلاف المانجا">
+    </div>
+
+    <p>بالنسبة للشخص الذي في الصورة ليس <strong>اتساما</strong>، هو <strong>تاديشكو</strong> والده، ولن يظهر في هذا الجزء؛ لذا أضفناه تكريماً له.</p>
+
+    <p>تعرفوا على الأبطال: <strong>مادو</strong> (بطل الموسم القادم)، <strong>نينيجي</strong>، والشرير <strong>هومورينو</strong>.. أما الأقوى فهو <strong>ايسكار</strong>.</p>
+
+    <p>📅 موعد النزول: <strong>يناير 2026</strong></p>
+
+    <p>💡 <strong>لماذا الثوب المغربي؟</strong> ستكتشفون السر قريباً في فصول المانجا.</p>
+
+    <div class="creator-section">
+        <p>هذه أول مانجا من صنعي - طموحنا رؤية 2030</p>
+        <h2>المنشئ: عزام راشد الفراجي</h2>
+    </div>
+
+</body>
+</html>
